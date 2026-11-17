@@ -1,0 +1,27 @@
+{
+  "SAMPLING_SEED": 2026,
+  "TRIAL_SEED": 2027,
+  "HANDPICKED_SEED": 2028,
+  "N_CANDIDATES": 200000,
+  "GROUP_SIZE": 5,
+  "BIN_EDGES": [
+    0.3,
+    0.35,
+    0.4,
+    0.45,
+    0.5,
+    0.55,
+    0.6,
+    0.65
+  ],
+  "GROUPS_PER_BIN": 12,
+  "CORRUPTION_LEVELS": [
+    0.0,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "TRIALS_PER_IMAGE": 20,
+  "MAX_SWEEPS": 100,
+  "BOOTSTRAP_SAMPLES": 2000
+}

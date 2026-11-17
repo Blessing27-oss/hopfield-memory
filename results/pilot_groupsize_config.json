@@ -1,0 +1,33 @@
+{
+  "SAMPLING_SEED": 3030,
+  "TRIAL_SEED": 3031,
+  "GROUP_SIZES": [
+    2,
+    3,
+    4
+  ],
+  "N_CANDIDATES": 50000,
+  "LEVEL_PERCENTILES": {
+    "low": [
+      0,
+      10
+    ],
+    "medium": [
+      45,
+      55
+    ],
+    "high": [
+      90,
+      100
+    ]
+  },
+  "GROUPS_PER_LEVEL": 4,
+  "CORRUPTION_LEVELS": [
+    0.0,
+    0.05,
+    0.1,
+    0.2
+  ],
+  "TRIALS_PER_IMAGE": 20,
+  "MAX_SWEEPS": 100
+}
