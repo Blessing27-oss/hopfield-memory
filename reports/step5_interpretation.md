@@ -131,7 +131,7 @@ The general worst case for image $a$ is a pixel where *all* other images disagre
 - **$k=4$ and $k=5$:** a worst-case rule ("such a pixel exists *and* the sum exceeds $1-k/N$") reproduces the measured stability of all 48 pilot $k=4$ images and all 420 step-4 $k=5$ images.
 
 Because typical digits overlap about 0.45 with each other, three or four such overlaps add up to more than the stored image's own contribution of 1.
-This is **not** the classical capacity limit: $0.138\,N \approx 141$ uncorrelated patterns. It is a much earlier failure caused by correlation.
+This is **not** the classical capacity limit: $0.138\,N \approx 141$ uncorrelated patterns (Amit, Gutfreund & Sompolinsky, 1985, *Physical Review Letters* 55, 1530). It is a much earlier failure caused by correlation.
 
 ### 3.2 Why three memories show a transition
 
